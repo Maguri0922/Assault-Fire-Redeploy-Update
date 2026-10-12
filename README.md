@@ -1,15 +1,16 @@
 # Assault Fire Redeploy Update
 
-Public release downloads for Assault Fire Redeploy.
+Signed automatic updates for your existing Assault Fire Redeploy installation.
 
-Automatic updating inside the existing TCLS launcher is being developed and tested. No automatic player update is currently activated.
+## Install the updater once
 
-## Downloads
+1. Download **AFR-Auto-Update-Bootstrap.zip** from the [latest release](https://github.com/Maguri0922/Assault-Fire-Redeploy-Update/releases/latest).
+2. Close the game and launcher, then extract all ZIP contents into your existing **AssaultFirePH** folder.
+3. Run **INSTALL AFR UPDATES.cmd** once.
+4. Use **PLAY.cmd** to start the game afterward.
 
-Approved patches will appear in this repository's Releases section. No player update is available until a release has been published.
+The existing TCLS launcher displays update progress and verifies the signed GitHub patch before showing login. Future patches download automatically when you start through PLAY.cmd. Your game installation and accounts are preserved.
 
-The intended launcher flow is to download and verify approved patches before showing the login controls. Future patches will contain changed files so players can keep their existing installation.
-
-## Support
+The other release assets are used automatically by the updater. Players only need the bootstrap ZIP. Start through PLAY.cmd instead of directly opening TCLS/client.exe.
 
 Use the Assault Fire Redeploy community support channel for game downloads, announcements, and update problems.
