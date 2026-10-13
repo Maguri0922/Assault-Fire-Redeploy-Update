@@ -1,18 +1,20 @@
 # Assault Fire Redeploy Update
 
-Signed automatic updates for your existing Assault Fire Redeploy installation.
+Open **TCLS/client.exe → update inside the original launcher → login**. Your normal shortcut can point to that same client.
 
-## Install the updater once
+## Install the native patch once
 
-1. Download **AFR-Auto-Update-Bootstrap-v1.0.1.zip** from the [latest release](https://github.com/Maguri0922/Assault-Fire-Redeploy-Update/releases/latest).
-2. Close the game and launcher, then extract all ZIP contents into your existing **AssaultFirePH** folder.
-3. Run **INSTALL AFR UPDATES.cmd** once.
-4. Use **PLAY.cmd** to start the game afterward.
+1. Close the game and launcher.
+2. Download **AFR-Native-TCLS-Patch-v1.0.1.exe** from the [latest release](https://github.com/Maguri0922/Assault-Fire-Redeploy-Update/releases/latest).
+3. Run it once and select **client.exe** inside your existing game’s **TCLS** folder.
+4. After installation, open that same **TCLS/client.exe** or its normal shortcut.
 
-The existing TCLS launcher displays update progress and verifies the signed GitHub patch before showing login. Future patches download automatically when you start through PLAY.cmd. Your game installation and accounts are preserved.
+Future signed patches download and install inside the original TCLS window before login. The original client executable, game assets and accounts are preserved. Internal update components are kept inside TCLS. The original game may show its usual Windows administrator prompt.
 
-The original game launcher may show its usual Windows administrator approval. The updater itself runs without administrator privileges.
+There is no separate daily updater or command. The native v1.0.1 patch supersedes the earlier native patch and the old bootstrap / INSTALL / PLAY instructions. Version 1.0.1 also handles the original downloader’s delayed shutdown during a quick launcher restart.
 
-The other release assets are used automatically by the updater. Players only need the bootstrap ZIP. Start through PLAY.cmd instead of directly opening TCLS/client.exe.
+## Publishing game updates
 
-Use the Assault Fire Redeploy community support channel for game downloads, announcements, and update problems.
+Current signed game version: **1.0.0.25**. Editing a local file does not publish it or change every player’s version. The developer packages the approved changes, signs a release manifest with its target version, and publishes the patch and manifest to GitHub. Players receive that published version the next time they open the launcher.
+
+The manifest.json and stable patch ZIP release assets are read automatically by TCLS. Players only need the one-time native patch above. Use the Assault Fire Redeploy community support channel for game downloads, announcements and update problems.
